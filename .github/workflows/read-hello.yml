@@ -2,8 +2,7 @@ name: Read Hello File
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
 
 jobs:
   read-hello-file:
