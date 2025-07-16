@@ -9,7 +9,7 @@ jobs:
   read-hello-file:
     runs-on: ubuntu-latest
 
-    strps:
+    steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
       
